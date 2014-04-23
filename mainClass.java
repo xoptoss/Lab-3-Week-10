@@ -1,11 +1,12 @@
 package mainPackage;
 
+
 import java.util.Scanner;
 
 public class mainClass {
 	public static void main(String[] args) {
 
-		String input;
+
 		boolean guessRight;
 		int number,guess=1;
 
@@ -43,8 +44,8 @@ public class mainClass {
 
 				guess++;
 			}
-		}while(guessRight=false || guess<4);
-
+		}while(guessRight!=true || guess<4);
+		tKeyboard.close();
 
 	}
 
